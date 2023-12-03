@@ -78,7 +78,7 @@ while True:
 
             elif interest == "simple":
                 print(f"After {t} year(s) at a {r * 100}% interest rate you will have {
-                    round(simp_interest, )}.")
+                    round(simp_interest, 2)}.")
                 break
 
             else:
